@@ -1,0 +1,101 @@
+.section {
+  background-color: #000;
+  background-image: url('../images/screencapture-app-zerion-io-connect-wallet-2025-01-30-06_28_17.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.blurryj {
+  z-index: 50;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #00000030;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.div-block {
+  background-color: #fff;
+  border: 1px #1e5ff5;
+  border-radius: 18px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: auto;
+  min-height: 20rem;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  position: relative;
+}
+
+.image {
+  width: 12%;
+  max-width: none;
+  margin-bottom: 5px;
+}
+
+.heading {
+  margin-top: 9px;
+  margin-bottom: 79px;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.lottie-animation {
+  width: 34%;
+  position: absolute;
+  top: 96.766px;
+}
+
+.text-block {
+  text-align: center;
+  width: 90%;
+  margin-top: 32px;
+  margin-bottom: 23px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.fixy {
+  text-align: center;
+  background-color: #1e5ff5;
+  border-radius: 9px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  display: flex;
+}
+
+.bold-text {
+  color: #1e5ff5;
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    background-image: url('../images/app.zerion.io_connect-walletiPhone-XR.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .div-block {
+    width: 97%;
+  }
+}
